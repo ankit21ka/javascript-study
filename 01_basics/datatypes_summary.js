@@ -5,19 +5,19 @@
 
 // javascript is dynamic type language
 
-const score = 100
-const scoreValue = 100.3
+// const score = 100
+// const scoreValue = 100.3
 
-const isLoggedIn = false
-const outsideTemp = null //object
-let userEmail;
+// const isLoggedIn = false
+// const outsideTemp = null //object
+// let userEmail;
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
+// const id = Symbol('123')
+// const anotherId = Symbol('123')
 
-// console.log(id === anotherId); //false
+// // console.log(id === anotherId); //false
 
-const bigNumber = 345678765434567895678n  //bigint
+// const bigNumber = 345678765434567895678n  //bigint
 
 
 
@@ -28,24 +28,49 @@ const bigNumber = 345678765434567895678n  //bigint
 
 // Array, Objects, functions
 
-const heros = ["shaktiman", "nagraaj", "doga"] //array  // object
+// const heros = ["shaktiman", "nagraaj", "doga"] //array  // object
 
-let myObj ={
-    name: "ankit",
-    age: 22,
+// let myObj ={
+//     name: "ankit",
+//     age: 22,
     
-}  //object
+// }  //object
 
-const myFunction = function() {
-    console.log("hello World");
+// const myFunction = function() {
+//     console.log("hello World");
     
 
-} //functon
+// } //functon
 
-console.log(typeof bigNumber); 
-console.log(typeof outsideTemp);
-console.log(typeof heros);
+// console.log(typeof bigNumber); 
+// console.log(typeof outsideTemp);
+// console.log(typeof heros);
 
 
 
+// **************************************************************
+
+// Stack (primitive), Heap (non - premitive) memories
+
+// let myYoutubename = "paidreel"
+
+// let anothername = myYoutubename
+// anothername = "ankitreel"
+
+// console.log(anothername);
+// console.log(myYoutubename);
+
+
+let  userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+
+let userTwo = userOne
+
+userTwo.email = "ankit@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
